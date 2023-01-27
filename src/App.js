@@ -4,6 +4,10 @@ import TopNav from './Component/TopNav/TopNav';
 import Nav from './Component/Nav/Nav';
 import Landing from './Component/Landing/Landing';
 import About from './Component/About/About';
+import WhyUs from './Component/WhyUs/WhyUs';
+import Menu from './Component/Menu/Menu';
+import Special from './Component/Specials/Special';
+import Events from './Component/Events/Events';
 
 function App() {
   return (
@@ -12,6 +16,11 @@ function App() {
       <Nav className="navbar-mobile mobile-nav-toggle"></Nav>
       <Landing></Landing>
       <About></About>
+      <WhyUs></WhyUs>
+      <Menu></Menu>
+      <Special></Special>
+      <Events></Events>
+      
       
     </div>
   );
