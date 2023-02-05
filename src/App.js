@@ -8,6 +8,7 @@ import WhyUs from './Component/WhyUs/WhyUs';
 import Menu from './Component/Menu/Menu';
 import Special from './Component/Specials/Special';
 import Events from './Component/Events/Events';
+import Footer from './Component/Footer/Footer';
 
 function App() {
   return (
@@ -17,9 +18,10 @@ function App() {
       <Landing></Landing>
       <About></About>
       <WhyUs></WhyUs>
-      <Menu></Menu>
+      <Footer></Footer>
+      {/* <Menu></Menu>
       <Special></Special>
-      <Events></Events>
+      <Events></Events> */}
       
       
     </div>
